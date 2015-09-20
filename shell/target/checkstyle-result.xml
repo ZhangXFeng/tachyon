@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/shell/src/main/java/tachyon/shell/TFsShell.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/shell/src/main/java/tachyon/shell/TFsShellUtils.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/shell/src/test/java/tachyon/shell/TFsShellTest.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/shell/src/test/java/tachyon/shell/TFsShellUtilsTest.java">
+</file>
+</checkstyle>

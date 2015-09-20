@@ -1,0 +1,536 @@
+2015-09-10 15:02:49,103 INFO   (Image.java:load) - Loading image /mnt/tachyon_default_home/journal/image.data
+2015-09-10 15:02:49,831 INFO   (EditLog.java:load) - currentLogNum passed in was 0
+2015-09-10 15:02:49,831 INFO   (EditLog.java:load) - No completed edit logs to be parsed
+2015-09-10 15:02:49,832 INFO   (EditLog.java:load) - Loading Edit Log /mnt/tachyon_default_home/journal/log.data
+2015-09-10 15:02:49,833 INFO   (Image.java:create) - Creating the image file: /mnt/tachyon_default_home/journal/image.data.tmp
+2015-09-10 15:02:49,911 INFO   (Image.java:create) - Succefully created the image file: /mnt/tachyon_default_home/journal/image.data.tmp
+2015-09-10 15:02:49,912 INFO   (Image.java:create) - Renamed /mnt/tachyon_default_home/journal/image.data.tmp to /mnt/tachyon_default_home/journal/image.data
+2015-09-10 15:02:49,912 INFO   (EditLog.java:<init>) - Creating edit log file /mnt/tachyon_default_home/journal/log.data
+2015-09-10 15:02:49,914 INFO   (EditLog.java:<init>) - Created file /mnt/tachyon_default_home/journal/log.data
+2015-09-10 15:02:50,241 INFO  server.Server (Server.java:doStart) - jetty-7.6.15.v20140411
+2015-09-10 15:02:50,303 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.s.ServletContextHandler{/metrics/json,null}
+2015-09-10 15:02:50,551 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.w.WebAppContext{/,file:/mnt/tachyon_default_home/servers/src/main/webapp/},/mnt/tachyon_default_home/servers/src/main/webapp
+2015-09-10 15:02:50,637 INFO  server.AbstractConnector (AbstractConnector.java:doStart) - Started SelectChannelConnector@0.0.0.0:19999
+2015-09-10 15:02:50,638 INFO   (UIWebServer.java:startWebServer) - Tachyon Master Server started @ /192.168.191.8:19999
+2015-09-10 15:02:50,641 INFO   (TachyonMaster.java:start) - Tachyon Master version 0.7.1 started @ /192.168.191.8:19998
+2015-09-10 15:15:06,672 INFO   (Image.java:load) - Loading image /mnt/tachyon_default_home/journal/image.data
+2015-09-12 15:54:16,653 WARN   (NetworkUtils.java:getLocalIpAddress) - Your hostname, sean-ThinkPad-T440p resolves to a loopback/non-reachable address: 127.0.0.1, but we couldn't find any external IP address!
+2015-09-12 16:09:13,738 WARN   (NetworkUtils.java:getLocalIpAddress) - Your hostname, sean-ThinkPad-T440p resolves to a loopback/non-reachable address: 127.0.0.1, but we couldn't find any external IP address!
+2015-09-12 16:10:22,314 WARN   (NetworkUtils.java:getLocalIpAddress) - Your hostname, sean-ThinkPad-T440p resolves to a loopback/non-reachable address: 127.0.0.1, but we couldn't find any external IP address!
+2015-09-12 18:46:05,509 WARN   (NetworkUtils.java:getLocalIpAddress) - Your hostname, sean-ThinkPad-T440p resolves to a loopback/non-reachable address: 127.0.0.1, but we couldn't find any external IP address!
+2015-09-12 18:46:05,663 INFO   (Image.java:load) - Loading image /mnt/tachyon_default_home/journal/image.data
+2015-09-12 18:46:06,641 INFO   (EditLog.java:load) - currentLogNum passed in was 0
+2015-09-12 18:46:06,641 INFO   (EditLog.java:load) - No completed edit logs to be parsed
+2015-09-12 18:46:06,641 INFO   (EditLog.java:load) - Loading Edit Log /mnt/tachyon_default_home/journal/log.data
+2015-09-12 18:46:06,642 INFO   (Image.java:create) - Creating the image file: /mnt/tachyon_default_home/journal/image.data.tmp
+2015-09-12 18:46:06,744 INFO   (Image.java:create) - Succefully created the image file: /mnt/tachyon_default_home/journal/image.data.tmp
+2015-09-12 18:46:06,744 INFO   (Image.java:create) - Renamed /mnt/tachyon_default_home/journal/image.data.tmp to /mnt/tachyon_default_home/journal/image.data
+2015-09-12 18:46:06,745 INFO   (EditLog.java:<init>) - Creating edit log file /mnt/tachyon_default_home/journal/log.data
+2015-09-12 18:46:06,747 INFO   (EditLog.java:<init>) - Created file /mnt/tachyon_default_home/journal/log.data
+2015-09-12 18:46:07,196 INFO  server.Server (Server.java:doStart) - jetty-7.6.15.v20140411
+2015-09-12 18:46:07,271 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.s.ServletContextHandler{/metrics/json,null}
+2015-09-12 18:46:07,511 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.w.WebAppContext{/,file:/mnt/tachyon_default_home/servers/src/main/webapp/},/mnt/tachyon_default_home/servers/src/main/webapp
+2015-09-12 18:46:07,616 INFO  server.AbstractConnector (AbstractConnector.java:doStart) - Started SelectChannelConnector@0.0.0.0:19999
+2015-09-12 18:46:07,616 INFO   (UIWebServer.java:startWebServer) - Tachyon Master Server started @ localhost/127.0.0.1:19999
+2015-09-12 18:46:07,621 INFO   (TachyonMaster.java:start) - Tachyon Master version 0.7.1 started @ localhost/127.0.0.1:19998
+2015-09-14 15:32:19,707 INFO   (Image.java:load) - Loading image /mnt/tachyon_default_home/journal/image.data
+2015-09-14 15:32:20,793 INFO   (EditLog.java:load) - currentLogNum passed in was 0
+2015-09-14 15:32:20,794 INFO   (EditLog.java:load) - No completed edit logs to be parsed
+2015-09-14 15:32:20,794 INFO   (EditLog.java:load) - Loading Edit Log /mnt/tachyon_default_home/journal/log.data
+2015-09-14 15:32:20,796 INFO   (Image.java:create) - Creating the image file: /mnt/tachyon_default_home/journal/image.data.tmp
+2015-09-14 15:32:20,943 INFO   (Image.java:create) - Succefully created the image file: /mnt/tachyon_default_home/journal/image.data.tmp
+2015-09-14 15:32:20,944 INFO   (Image.java:create) - Renamed /mnt/tachyon_default_home/journal/image.data.tmp to /mnt/tachyon_default_home/journal/image.data
+2015-09-14 15:32:20,944 INFO   (EditLog.java:<init>) - Creating edit log file /mnt/tachyon_default_home/journal/log.data
+2015-09-14 15:32:20,946 INFO   (EditLog.java:<init>) - Created file /mnt/tachyon_default_home/journal/log.data
+2015-09-14 15:32:21,461 INFO  server.Server (Server.java:doStart) - jetty-7.6.15.v20140411
+2015-09-14 15:32:21,537 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.s.ServletContextHandler{/metrics/json,null}
+2015-09-14 15:32:21,819 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.w.WebAppContext{/,file:/mnt/tachyon_default_home/servers/src/main/webapp/},/mnt/tachyon_default_home/servers/src/main/webapp
+2015-09-14 15:32:21,934 INFO  server.AbstractConnector (AbstractConnector.java:doStart) - Started SelectChannelConnector@0.0.0.0:19999
+2015-09-14 15:32:21,935 INFO   (UIWebServer.java:startWebServer) - Tachyon Master Server started @ /192.168.191.7:19999
+2015-09-14 15:32:21,938 INFO   (TachyonMaster.java:start) - Tachyon Master version 0.7.1 started @ /192.168.191.7:19998
+2015-09-14 15:59:54,059 INFO   (Image.java:load) - Loading image /mnt/tachyon_default_home/journal/image.data
+2015-09-16 14:12:03,630 INFO   (Image.java:load) - Loading image /mnt/tachyon_default_home/journal/image.data
+2015-09-16 14:28:53,537 INFO   (EditLog.java:load) - currentLogNum passed in was 0
+2015-09-16 14:29:07,435 INFO   (EditLog.java:load) - No completed edit logs to be parsed
+2015-09-16 14:29:11,170 INFO   (EditLog.java:load) - Loading Edit Log /mnt/tachyon_default_home/journal/log.data
+2015-09-16 14:31:54,243 INFO   (Image.java:create) - Creating the image file: /mnt/tachyon_default_home/journal/image.data.tmp
+2015-09-16 14:32:20,480 INFO   (Image.java:create) - Succefully created the image file: /mnt/tachyon_default_home/journal/image.data.tmp
+2015-09-16 14:33:35,108 INFO   (Image.java:create) - Renamed /mnt/tachyon_default_home/journal/image.data.tmp to /mnt/tachyon_default_home/journal/image.data
+2015-09-16 14:35:46,843 INFO   (EditLog.java:<init>) - Creating edit log file /mnt/tachyon_default_home/journal/log.data
+2015-09-16 14:36:13,359 INFO   (EditLog.java:<init>) - Created file /mnt/tachyon_default_home/journal/log.data
+2015-09-16 14:42:41,585 WARN   (HeartbeatThread.java:run) - Master Heartbeat last execution took 36605 ms. Longer than  the mFixedExecutionIntervalMs 1000
+2015-09-16 14:44:23,587 WARN   (HeartbeatThread.java:run) - Master Heartbeat last execution took 73168 ms. Longer than  the mFixedExecutionIntervalMs 1000
+2015-09-16 14:44:31,307 WARN   (HeartbeatThread.java:run) - Master Heartbeat last execution took 1383 ms. Longer than  the mFixedExecutionIntervalMs 1000
+2015-09-16 14:53:07,727 INFO  server.Server (Server.java:doStart) - jetty-7.6.15.v20140411
+2015-09-16 14:53:07,983 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.s.ServletContextHandler{/metrics/json,null}
+2015-09-16 14:53:08,807 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.w.WebAppContext{/,file:/mnt/tachyon_default_home/servers/src/main/webapp/},/mnt/tachyon_default_home/servers/src/main/webapp
+2015-09-16 14:53:09,193 INFO  server.AbstractConnector (AbstractConnector.java:doStart) - Started SelectChannelConnector@0.0.0.0:19999
+2015-09-16 14:53:09,195 INFO   (UIWebServer.java:startWebServer) - Tachyon Master Server started @ /172.16.3.68:19999
+2015-09-16 14:53:15,771 INFO   (TachyonMaster.java:start) - Tachyon Master version 0.7.1 started @ /172.16.3.68:19998
+2015-09-16 14:54:10,611 WARN  servlet.ServletHandler (ServletHandler.java:doHandle) - 
+javax.servlet.ServletException: java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.CompilationResult.getProblems()[Lorg/eclipse/jdt/core/compiler/IProblem;
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:273)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+	at tachyon.web.WebInterfaceGeneralServlet.doGet(WebInterfaceGeneralServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:369)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.CompilationResult.getProblems()[Lorg/eclipse/jdt/core/compiler/IProblem;
+	at org.apache.jasper.compiler.JDTCompiler$2.acceptResult(JDTCompiler.java:354)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:478)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:425)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:298)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:277)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:265)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:299)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	... 41 more
+2015-09-16 14:54:10,613 WARN  servlet.ServletHandler (ServletHandler.java:doHandle) - /home
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.CompilationResult.getProblems()[Lorg/eclipse/jdt/core/compiler/IProblem;
+	at org.apache.jasper.compiler.JDTCompiler$2.acceptResult(JDTCompiler.java:354)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:478)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:425)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:298)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:277)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:265)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:299)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+	at tachyon.web.WebInterfaceGeneralServlet.doGet(WebInterfaceGeneralServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:369)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-16 14:54:38,031 WARN   (HeartbeatThread.java:run) - Master Heartbeat last execution took 573540 ms. Longer than  the mFixedExecutionIntervalMs 1000
+2015-09-16 14:54:52,403 WARN  servlet.ServletHandler (ServletHandler.java:doHandle) - 
+javax.servlet.ServletException: java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.CompilationResult.getProblems()[Lorg/eclipse/jdt/core/compiler/IProblem;
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:273)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+	at tachyon.web.WebInterfaceGeneralServlet.doGet(WebInterfaceGeneralServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:369)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.CompilationResult.getProblems()[Lorg/eclipse/jdt/core/compiler/IProblem;
+	at org.apache.jasper.compiler.JDTCompiler$2.acceptResult(JDTCompiler.java:354)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:478)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:425)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:298)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:277)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:265)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:299)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	... 41 more
+2015-09-16 14:54:52,404 WARN  servlet.ServletHandler (ServletHandler.java:doHandle) - /home
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.CompilationResult.getProblems()[Lorg/eclipse/jdt/core/compiler/IProblem;
+	at org.apache.jasper.compiler.JDTCompiler$2.acceptResult(JDTCompiler.java:354)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:478)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:425)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:298)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:277)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:265)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:299)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+	at tachyon.web.WebInterfaceGeneralServlet.doGet(WebInterfaceGeneralServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:369)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-16 14:56:33,503 INFO   (Image.java:load) - Loading image /mnt/tachyon_default_home/journal/image.data
+2015-09-16 14:56:35,149 INFO   (EditLog.java:load) - currentLogNum passed in was 0
+2015-09-16 14:56:35,150 INFO   (EditLog.java:load) - No completed edit logs to be parsed
+2015-09-16 14:56:35,150 INFO   (EditLog.java:load) - Loading Edit Log /mnt/tachyon_default_home/journal/log.data
+2015-09-16 14:56:35,152 INFO   (Image.java:create) - Creating the image file: /mnt/tachyon_default_home/journal/image.data.tmp
+2015-09-16 14:56:35,272 INFO   (Image.java:create) - Succefully created the image file: /mnt/tachyon_default_home/journal/image.data.tmp
+2015-09-16 14:56:35,273 INFO   (Image.java:create) - Renamed /mnt/tachyon_default_home/journal/image.data.tmp to /mnt/tachyon_default_home/journal/image.data
+2015-09-16 14:56:35,273 INFO   (EditLog.java:<init>) - Creating edit log file /mnt/tachyon_default_home/journal/log.data
+2015-09-16 14:56:35,275 INFO   (EditLog.java:<init>) - Created file /mnt/tachyon_default_home/journal/log.data
+2015-09-16 14:56:35,680 INFO  server.Server (Server.java:doStart) - jetty-7.6.15.v20140411
+2015-09-16 14:56:35,759 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.s.ServletContextHandler{/metrics/json,null}
+2015-09-16 14:56:36,000 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.w.WebAppContext{/,file:/mnt/tachyon_default_home/servers/src/main/webapp/},/mnt/tachyon_default_home/servers/src/main/webapp
+2015-09-16 14:56:36,124 INFO  server.AbstractConnector (AbstractConnector.java:doStart) - Started SelectChannelConnector@0.0.0.0:19999
+2015-09-16 14:56:36,124 INFO   (UIWebServer.java:startWebServer) - Tachyon Master Server started @ /172.16.3.68:19999
+2015-09-16 14:56:36,130 INFO   (TachyonMaster.java:start) - Tachyon Master version 0.7.1 started @ /172.16.3.68:19998
+2015-09-16 14:56:45,830 WARN  servlet.ServletHandler (ServletHandler.java:doHandle) - 
+javax.servlet.ServletException: java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.CompilationResult.getProblems()[Lorg/eclipse/jdt/core/compiler/IProblem;
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:273)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+	at tachyon.web.WebInterfaceGeneralServlet.doGet(WebInterfaceGeneralServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:369)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.CompilationResult.getProblems()[Lorg/eclipse/jdt/core/compiler/IProblem;
+	at org.apache.jasper.compiler.JDTCompiler$2.acceptResult(JDTCompiler.java:354)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:478)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:425)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:298)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:277)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:265)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:299)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	... 41 more
+2015-09-16 14:56:45,832 WARN  servlet.ServletHandler (ServletHandler.java:doHandle) - /home
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.CompilationResult.getProblems()[Lorg/eclipse/jdt/core/compiler/IProblem;
+	at org.apache.jasper.compiler.JDTCompiler$2.acceptResult(JDTCompiler.java:354)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:478)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:425)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:298)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:277)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:265)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:299)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+	at tachyon.web.WebInterfaceGeneralServlet.doGet(WebInterfaceGeneralServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:369)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-16 14:57:51,808 INFO   (Image.java:load) - Loading image /mnt/tachyon_default_home/journal/image.data
+2015-09-16 14:57:52,605 INFO   (EditLog.java:load) - currentLogNum passed in was 0
+2015-09-16 14:57:52,605 INFO   (EditLog.java:load) - No completed edit logs to be parsed
+2015-09-16 14:57:52,606 INFO   (EditLog.java:load) - Loading Edit Log /mnt/tachyon_default_home/journal/log.data
+2015-09-16 14:57:52,606 INFO   (Image.java:create) - Creating the image file: /mnt/tachyon_default_home/journal/image.data.tmp
+2015-09-16 14:57:52,704 INFO   (Image.java:create) - Succefully created the image file: /mnt/tachyon_default_home/journal/image.data.tmp
+2015-09-16 14:57:52,705 INFO   (Image.java:create) - Renamed /mnt/tachyon_default_home/journal/image.data.tmp to /mnt/tachyon_default_home/journal/image.data
+2015-09-16 14:57:52,705 INFO   (EditLog.java:<init>) - Creating edit log file /mnt/tachyon_default_home/journal/log.data
+2015-09-16 14:57:52,707 INFO   (EditLog.java:<init>) - Created file /mnt/tachyon_default_home/journal/log.data
+2015-09-16 14:57:53,084 INFO  server.Server (Server.java:doStart) - jetty-7.6.15.v20140411
+2015-09-16 14:57:53,158 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.s.ServletContextHandler{/metrics/json,null}
+2015-09-16 14:57:53,382 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.w.WebAppContext{/,file:/mnt/tachyon_default_home/servers/src/main/webapp/},/mnt/tachyon_default_home/servers/src/main/webapp
+2015-09-16 14:57:53,478 INFO  server.AbstractConnector (AbstractConnector.java:doStart) - Started SelectChannelConnector@0.0.0.0:19999
+2015-09-16 14:57:53,478 INFO   (UIWebServer.java:startWebServer) - Tachyon Master Server started @ /172.16.3.68:19999
+2015-09-16 14:57:53,482 INFO   (TachyonMaster.java:start) - Tachyon Master version 0.7.1 started @ /172.16.3.68:19998
+2015-09-16 14:58:01,224 WARN  servlet.ServletHandler (ServletHandler.java:doHandle) - 
+javax.servlet.ServletException: java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.CompilationResult.getProblems()[Lorg/eclipse/jdt/core/compiler/IProblem;
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:273)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+	at tachyon.web.WebInterfaceGeneralServlet.doGet(WebInterfaceGeneralServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:369)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.CompilationResult.getProblems()[Lorg/eclipse/jdt/core/compiler/IProblem;
+	at org.apache.jasper.compiler.JDTCompiler$2.acceptResult(JDTCompiler.java:354)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:478)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:425)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:298)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:277)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:265)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:299)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	... 41 more
+2015-09-16 14:58:01,226 WARN  servlet.ServletHandler (ServletHandler.java:doHandle) - /home
+java.lang.NoSuchMethodError: org.eclipse.jdt.internal.compiler.CompilationResult.getProblems()[Lorg/eclipse/jdt/core/compiler/IProblem;
+	at org.apache.jasper.compiler.JDTCompiler$2.acceptResult(JDTCompiler.java:354)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:478)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:425)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:298)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:277)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:265)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:564)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:299)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:315)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:265)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:574)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:293)
+	at org.eclipse.jetty.server.Dispatcher.forward(Dispatcher.java:120)
+	at tachyon.web.WebInterfaceGeneralServlet.doGet(WebInterfaceGeneralServlet.java:104)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:820)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:445)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:556)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:227)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1044)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:372)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:189)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:978)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:369)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:486)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:933)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:995)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)

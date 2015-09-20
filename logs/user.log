@@ -1,0 +1,54 @@
+2015-08-25 17:46:16,672 INFO  USER_LOGGER (Format.java:formatFolder) - Formatting JOURNAL_FOLDER:/media/sean/00022099000F449E/tachyon-0.7.1/journal/
+2015-08-25 17:46:16,699 INFO  USER_LOGGER (Format.java:formatFolder) - Formatting UNDERFS_DATA_FOLDER:/media/sean/00022099000F449E/tachyon-0.7.1/underFSStorage/tachyon/data
+2015-08-25 17:46:16,701 INFO  USER_LOGGER (Format.java:formatFolder) - Formatting UNDERFS_WORKERS_FOLDER:/media/sean/00022099000F449E/tachyon-0.7.1/underFSStorage/tachyon/workers
+2015-08-25 17:51:32,755 INFO  USER_LOGGER (Format.java:formatFolder) - Formatting JOURNAL_FOLDER:/media/sean/00022099000F449E/tachyon-0.7.1/journal/
+2015-08-25 17:51:32,777 INFO  USER_LOGGER (Format.java:formatFolder) - Formatting UNDERFS_DATA_FOLDER:/media/sean/00022099000F449E/tachyon-0.7.1/underFSStorage/tmp/tachyon/data
+2015-08-25 17:51:32,794 INFO  USER_LOGGER (Format.java:formatFolder) - Formatting UNDERFS_WORKERS_FOLDER:/media/sean/00022099000F449E/tachyon-0.7.1/underFSStorage/tmp/tachyon/workers
+2015-08-25 17:54:27,999 INFO  USER_LOGGER (Format.java:formatFolder) - Formatting JOURNAL_FOLDER:/media/sean/00022099000F449E/tachyon-0.7.1/journal/
+2015-08-25 17:54:28,020 INFO  USER_LOGGER (Format.java:formatFolder) - Formatting UNDERFS_DATA_FOLDER:/media/sean/00022099000F449E/tachyon-0.7.1/underFSStorage/tmp/tachyon/data
+2015-08-25 17:54:28,021 INFO  USER_LOGGER (Format.java:formatFolder) - Formatting UNDERFS_WORKERS_FOLDER:/media/sean/00022099000F449E/tachyon-0.7.1/underFSStorage/tmp/tachyon/workers
+2015-09-06 11:42:35,144 INFO  USER_LOGGER (Format.java:formatFolder) - Formatting JOURNAL_FOLDER:/media/sean/00022099000F449E/tachyon-0.7.1/journal/
+2015-09-06 11:42:35,159 INFO  USER_LOGGER (Format.java:formatFolder) - Formatting UNDERFS_DATA_FOLDER:/media/sean/00022099000F449E/tachyon-0.7.1/underFSStorage/tmp/tachyon/data
+2015-09-06 11:42:35,159 INFO  USER_LOGGER (Format.java:formatFolder) - Formatting UNDERFS_WORKERS_FOLDER:/media/sean/00022099000F449E/tachyon-0.7.1/underFSStorage/tmp/tachyon/workers
+2015-09-06 11:45:33,020 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:45:33,045 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 3
+2015-09-06 11:46:41,480 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:46:41,505 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 6
+2015-09-06 11:46:42,162 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:46:42,186 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 8
+2015-09-06 11:46:47,906 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:46:47,930 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 10
+2015-09-06 11:46:48,678 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:46:48,703 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 12
+2015-09-06 11:46:49,380 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:46:49,405 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 14
+2015-09-06 11:46:50,059 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:46:50,088 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 16
+2015-09-06 11:46:50,787 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:46:50,814 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 18
+2015-09-06 11:46:51,540 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:46:51,568 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 20
+2015-09-06 11:46:52,245 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:46:52,270 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 22
+2015-09-06 11:46:52,974 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:46:53,003 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 24
+2015-09-06 11:46:53,746 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:46:53,771 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 26
+2015-09-06 11:46:54,510 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:46:54,537 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 28
+2015-09-06 11:46:55,220 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:46:55,244 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 30
+2015-09-06 11:47:00,924 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:47:00,949 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 32
+2015-09-06 11:47:01,691 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:47:01,720 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 34
+2015-09-06 11:47:02,445 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:47:02,470 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 36
+2015-09-06 11:47:03,118 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:47:03,143 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 38
+2015-09-06 11:47:03,815 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:47:03,842 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 40
+2015-09-06 11:47:04,557 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:47:04,585 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 42
+2015-09-06 11:47:05,318 INFO  USER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:47:05,344 INFO  USER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 44

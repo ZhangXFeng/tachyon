@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/AbstractTachyonFS.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/BlockInStream.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/BlockOutStream.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/ClientConstants.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/EmptyBlockInStream.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/FileInStream.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/FileOutStream.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/InStream.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/LocalBlockInStream.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/LocalBlockOutStream.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/netty/ClientHandler.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/netty/NettyClient.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/netty/NettyRemoteBlockReader.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/netty/NettyRemoteBlockWriter.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/netty/SingleResponseListener.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/OutStream.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/ReadType.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/RemoteBlockInStream.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/RemoteBlockOutStream.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/RemoteBlockReader.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/RemoteBlockWriter.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/table/RawColumn.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/table/RawTable.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/TachyonByteBuffer.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/TachyonFile.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/TachyonFS.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/TachyonFSCore.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/tcp/TCPRemoteBlockReader.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/UfsUtils.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/client/WriteType.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/hadoop/AbstractTFS.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/hadoop/ConfUtils.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/hadoop/HdfsFileInputStream.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/hadoop/TFS.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/hadoop/TFSFT.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/main/java/tachyon/hadoop/Utils.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/test/java/tachyon/hadoop/TFSTest.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/clients/unshaded/src/test/java/tachyon/hadoop/UtilsTest.java">
+</file>
+</checkstyle>

@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Class-Path: curator-test-2.1.0-incubating.jar commons-math-2.2.jar zoo
+ keeper-3.4.5.jar slf4j-log4j12-1.7.2.jar log4j-1.2.15.jar mail-1.4.ja
+ r activation-1.1.jar jline-0.9.94.jar netty-3.2.2.Final.jar guava-14.
+ 0.1.jar tachyon-common-0.7.1.jar commons-lang-2.4.jar commons-io-2.4.
+ jar netty-all-4.0.28.Final.jar commons-lang3-3.0.jar curator-framewor
+ k-2.1.0-incubating.jar curator-client-2.1.0-incubating.jar curator-re
+ cipes-2.1.0-incubating.jar libthrift-0.9.1.jar httpclient-4.2.5.jar c
+ ommons-logging-1.1.1.jar httpcore-4.2.4.jar slf4j-api-1.7.2.jar tachy
+ on-client-unshaded-0.7.1.jar hadoop-client-1.0.4.jar hadoop-core-1.0.
+ 4.jar xmlenc-0.52.jar commons-configuration-1.6.jar commons-collectio
+ ns-3.2.1.jar commons-digester-1.8.jar commons-beanutils-1.7.0.jar com
+ mons-beanutils-core-1.8.0.jar commons-net-1.4.1.jar commons-el-1.0.ja
+ r hsqldb-1.8.0.10.jar oro-2.0.8.jar jackson-mapper-asl-1.0.1.jar jack
+ son-core-asl-1.0.1.jar tachyon-servers-0.7.1.jar metrics-core-3.1.0.j
+ ar metrics-json-3.1.0.jar metrics-jvm-3.1.0.jar metrics-graphite-3.1.
+ 0.jar jetty-jsp-7.6.15.v20140411.jar javax.servlet.jsp-2.1.0.v2011052
+ 11820.jar org.apache.jasper.glassfish-2.1.0.v201110031002.jar javax.s
+ ervlet.jsp.jstl-1.2.0.v201105211821.jar org.apache.taglibs.standard.g
+ lassfish-1.2.0.v201112081803.jar javax.el-2.1.0.v201105211819.jar com
+ .sun.el-1.0.0.v201105211818.jar org.eclipse.jdt.core-3.7.1.jar jetty-
+ webapp-7.6.15.v20140411.jar jetty-xml-7.6.15.v20140411.jar jetty-util
+ -7.6.15.v20140411.jar jetty-server-7.6.15.v20140411.jar javax.servlet
+ -2.5.0.v201103041518.jar jetty-continuation-7.6.15.v20140411.jar jett
+ y-http-7.6.15.v20140411.jar jetty-io-7.6.15.v20140411.jar jetty-servl
+ et-7.6.15.v20140411.jar jetty-security-7.6.15.v20140411.jar commons-c
+ odec-1.5.jar jackson-databind-2.3.0.jar jackson-annotations-2.3.0.jar
+  jackson-core-2.3.0.jar
+Build-Jdk: 1.7.0_71
+Built-By: sean
+Created-By: Maven Integration for Eclipse
+

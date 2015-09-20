@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/examples/src/main/java/tachyon/examples/BasicCheckpoint.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/examples/src/main/java/tachyon/examples/BasicNonByteBufferOperations.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/examples/src/main/java/tachyon/examples/BasicOperations.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/examples/src/main/java/tachyon/examples/BasicRawTableOperations.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/examples/src/main/java/tachyon/examples/Performance.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/examples/src/main/java/tachyon/examples/Utils.java">
+</file>
+</checkstyle>

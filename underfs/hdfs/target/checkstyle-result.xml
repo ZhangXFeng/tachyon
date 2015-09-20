@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.9">
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/underfs/hdfs/src/main/java/tachyon/underfs/hdfs/HdfsUnderFileSystem.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/underfs/hdfs/src/main/java/tachyon/underfs/hdfs/HdfsUnderFileSystemFactory.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/underfs/hdfs/src/main/java/tachyon/underfs/hdfs/HdfsUnderFileSystemUtils.java">
+</file>
+<file name="/Users/DreamSweet/Releases/tachyon-0.7.1/underfs/hdfs/src/test/java/tachyon/underfs/hdfs/HdfsUnderFileSystemFactoryTest.java">
+</file>
+</checkstyle>

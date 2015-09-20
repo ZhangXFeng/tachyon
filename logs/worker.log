@@ -1,0 +1,316 @@
+2015-08-25 17:55:02,382 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-08-25 17:55:02,405 INFO  WORKER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 1
+2015-08-25 17:55:02,424 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1440496000001
+2015-08-25 17:55:02,587 INFO  server.Server (Server.java:doStart) - jetty-7.x.y-SNAPSHOT
+2015-08-25 17:55:02,610 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.s.ServletContextHandler{/metrics/json,null}
+2015-08-25 17:55:02,700 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.w.WebAppContext{/,file:/media/sean/00022099000F449E/tachyon-0.7.1/servers/src/main/webapp/},/media/sean/00022099000F449E/tachyon-0.7.1/servers/src/main/webapp
+2015-08-25 17:55:02,734 INFO  server.AbstractConnector (AbstractConnector.java:doStart) - Started SelectChannelConnector@0.0.0.0:30000
+2015-08-25 17:55:02,734 INFO  WORKER_LOGGER (UIWebServer.java:startWebServer) - Tachyon Worker started @ /172.16.3.68:30000
+2015-08-25 17:55:03,587 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-08-25 17:55:03,588 INFO  WORKER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 2
+2015-08-25 18:48:39,329 ERROR WORKER_LOGGER (MasterClient.java:user_heartbeat) - 
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:84)
+	at org.apache.thrift.transport.TFramedTransport.readFrame(TFramedTransport.java:129)
+	at org.apache.thrift.transport.TFramedTransport.read(TFramedTransport.java:101)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:84)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:362)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:284)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:191)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:69)
+	at tachyon.thrift.MasterService$Client.recv_user_heartbeat(MasterService.java:1182)
+	at tachyon.thrift.MasterService$Client.user_heartbeat(MasterService.java:1170)
+	at tachyon.master.MasterClient.user_heartbeat(MasterClient.java:674)
+	at tachyon.master.MasterClientHeartbeatExecutor.heartbeat(MasterClientHeartbeatExecutor.java:37)
+	at tachyon.HeartbeatThread.run(HeartbeatThread.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-25 18:48:39,330 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-08-25 18:48:39,331 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (0) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-08-25 18:48:39,371 ERROR WORKER_LOGGER (HeartbeatThread.java:run) - Uncaught exception in heartbeat executor, Heartbeat Thread shutting down
+java.lang.RuntimeException: java.io.IOException: Failed to connect with master @ localhost/127.0.0.1:19998 after 0 attempts
+	at com.google.common.base.Throwables.propagate(Throwables.java:160)
+	at tachyon.master.MasterClientHeartbeatExecutor.heartbeat(MasterClientHeartbeatExecutor.java:40)
+	at tachyon.HeartbeatThread.run(HeartbeatThread.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Failed to connect with master @ localhost/127.0.0.1:19998 after 0 attempts
+	at tachyon.master.MasterClient.connect(MasterClient.java:223)
+	at tachyon.master.MasterClient.user_heartbeat(MasterClient.java:672)
+	at tachyon.master.MasterClientHeartbeatExecutor.heartbeat(MasterClientHeartbeatExecutor.java:37)
+	... 6 more
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: 拒绝连接
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at tachyon.master.MasterClient.connect(MasterClient.java:190)
+	... 8 more
+Caused by: java.net.ConnectException: 拒绝连接
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 10 more
+2015-08-25 18:48:39,487 ERROR WORKER_LOGGER (MasterClient.java:user_heartbeat) - 
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:84)
+	at org.apache.thrift.transport.TFramedTransport.readFrame(TFramedTransport.java:129)
+	at org.apache.thrift.transport.TFramedTransport.read(TFramedTransport.java:101)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:84)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:362)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:284)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:191)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:69)
+	at tachyon.thrift.MasterService$Client.recv_user_heartbeat(MasterService.java:1182)
+	at tachyon.thrift.MasterService$Client.user_heartbeat(MasterService.java:1170)
+	at tachyon.master.MasterClient.user_heartbeat(MasterClient.java:674)
+	at tachyon.master.MasterClientHeartbeatExecutor.heartbeat(MasterClientHeartbeatExecutor.java:37)
+	at tachyon.HeartbeatThread.run(HeartbeatThread.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-08-25 18:48:39,487 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-08-25 18:48:39,488 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (0) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-08-25 18:48:39,488 ERROR WORKER_LOGGER (HeartbeatThread.java:run) - Uncaught exception in heartbeat executor, Heartbeat Thread shutting down
+java.lang.RuntimeException: java.io.IOException: Failed to connect with master @ localhost/127.0.0.1:19998 after 0 attempts
+	at com.google.common.base.Throwables.propagate(Throwables.java:160)
+	at tachyon.master.MasterClientHeartbeatExecutor.heartbeat(MasterClientHeartbeatExecutor.java:40)
+	at tachyon.HeartbeatThread.run(HeartbeatThread.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Failed to connect with master @ localhost/127.0.0.1:19998 after 0 attempts
+	at tachyon.master.MasterClient.connect(MasterClient.java:223)
+	at tachyon.master.MasterClient.user_heartbeat(MasterClient.java:672)
+	at tachyon.master.MasterClientHeartbeatExecutor.heartbeat(MasterClientHeartbeatExecutor.java:37)
+	... 6 more
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: 拒绝连接
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at tachyon.master.MasterClient.connect(MasterClient.java:190)
+	... 8 more
+Caused by: java.net.ConnectException: 拒绝连接
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 10 more
+2015-08-25 18:48:39,602 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-08-25 18:48:39,603 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (0) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-08-25 18:48:39,653 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-08-25 18:48:39,654 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (1) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-08-25 18:48:39,754 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-08-25 18:48:39,755 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (2) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-08-25 18:48:39,938 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-08-25 18:48:39,938 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (0) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-08-25 18:48:39,988 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-08-25 18:48:39,989 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (1) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-08-25 18:48:40,039 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-08-25 18:48:40,040 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (2) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-09-06 11:42:59,227 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:42:59,284 INFO  WORKER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 1
+2015-09-06 11:42:59,302 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000001
+2015-09-06 11:42:59,445 INFO  server.Server (Server.java:doStart) - jetty-7.x.y-SNAPSHOT
+2015-09-06 11:42:59,466 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.s.ServletContextHandler{/metrics/json,null}
+2015-09-06 11:42:59,554 INFO  handler.ContextHandler (ContextHandler.java:startContext) - started o.e.j.w.WebAppContext{/,file:/media/sean/00022099000F449E/tachyon-0.7.1/servers/src/main/webapp/},/media/sean/00022099000F449E/tachyon-0.7.1/servers/src/main/webapp
+2015-09-06 11:42:59,600 INFO  server.AbstractConnector (AbstractConnector.java:doStart) - Started SelectChannelConnector@0.0.0.0:30000
+2015-09-06 11:42:59,601 INFO  WORKER_LOGGER (UIWebServer.java:startWebServer) - Tachyon Worker started @ /172.16.3.68:30000
+2015-09-06 11:43:00,442 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:43:00,443 INFO  WORKER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 2
+2015-09-06 11:45:33,492 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-06 11:45:33,494 INFO  WORKER_LOGGER (MasterClient.java:connect) - User registered with the master @ localhost/127.0.0.1:19998; got UserId 5
+2015-09-06 11:45:43,584 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 4
+2015-09-06 11:46:52,622 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 7
+2015-09-06 11:46:57,628 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 9
+2015-09-06 11:46:58,628 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 11
+2015-09-06 11:46:59,628 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 13
+2015-09-06 11:47:00,629 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 17
+2015-09-06 11:47:00,629 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 15
+2015-09-06 11:47:01,629 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 19
+2015-09-06 11:47:02,630 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 21
+2015-09-06 11:47:02,631 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 23
+2015-09-06 11:47:03,632 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 25
+2015-09-06 11:47:04,634 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 27
+2015-09-06 11:47:05,636 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 29
+2015-09-06 11:47:10,638 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 31
+2015-09-06 11:47:11,639 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 33
+2015-09-06 11:47:12,639 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 35
+2015-09-06 11:47:13,639 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 39
+2015-09-06 11:47:13,641 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 37
+2015-09-06 11:47:14,639 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 41
+2015-09-06 11:47:15,640 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 43
+2015-09-06 11:47:16,641 INFO  WORKER_LOGGER (Users.java:removeUser) - Cleaning up user 45
+2015-09-06 15:50:52,337 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000002
+2015-09-06 21:41:53,352 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000003
+2015-09-08 08:58:34,279 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000004
+2015-09-08 10:15:28,343 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000005
+2015-09-08 11:33:18,333 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000006
+2015-09-08 13:58:18,304 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000007
+2015-09-08 14:37:09,423 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000008
+2015-09-08 15:25:15,414 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000009
+2015-09-08 17:51:48,247 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000010
+2015-09-08 20:47:23,209 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000011
+2015-09-09 10:09:45,343 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000012
+2015-09-09 10:44:35,339 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000013
+2015-09-09 14:29:28,251 INFO  WORKER_LOGGER (MasterClient.java:worker_register) - Registered at the master localhost/127.0.0.1:19998 from worker NetAddress(mHost:172.16.3.68, mPort:29998, mSecondaryPort:29999) , got WorkerId 1441510000014
+2015-09-09 15:33:16,182 ERROR WORKER_LOGGER (MasterClient.java:user_heartbeat) - 
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:84)
+	at org.apache.thrift.transport.TFramedTransport.readFrame(TFramedTransport.java:129)
+	at org.apache.thrift.transport.TFramedTransport.read(TFramedTransport.java:101)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:84)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:362)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:284)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:191)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:69)
+	at tachyon.thrift.MasterService$Client.recv_user_heartbeat(MasterService.java:1182)
+	at tachyon.thrift.MasterService$Client.user_heartbeat(MasterService.java:1170)
+	at tachyon.master.MasterClient.user_heartbeat(MasterClient.java:674)
+	at tachyon.master.MasterClientHeartbeatExecutor.heartbeat(MasterClientHeartbeatExecutor.java:37)
+	at tachyon.HeartbeatThread.run(HeartbeatThread.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-09 15:33:16,182 ERROR WORKER_LOGGER (MasterClient.java:user_heartbeat) - 
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:84)
+	at org.apache.thrift.transport.TFramedTransport.readFrame(TFramedTransport.java:129)
+	at org.apache.thrift.transport.TFramedTransport.read(TFramedTransport.java:101)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:84)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:362)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:284)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:191)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:69)
+	at tachyon.thrift.MasterService$Client.recv_user_heartbeat(MasterService.java:1182)
+	at tachyon.thrift.MasterService$Client.user_heartbeat(MasterService.java:1170)
+	at tachyon.master.MasterClient.user_heartbeat(MasterClient.java:674)
+	at tachyon.master.MasterClientHeartbeatExecutor.heartbeat(MasterClientHeartbeatExecutor.java:37)
+	at tachyon.HeartbeatThread.run(HeartbeatThread.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-09 15:33:16,184 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-09 15:33:16,182 ERROR WORKER_LOGGER (MasterClient.java:worker_getPinIdList) - 
+org.apache.thrift.transport.TTransportException
+	at org.apache.thrift.transport.TIOStreamTransport.read(TIOStreamTransport.java:132)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:84)
+	at org.apache.thrift.transport.TFramedTransport.readFrame(TFramedTransport.java:129)
+	at org.apache.thrift.transport.TFramedTransport.read(TFramedTransport.java:101)
+	at org.apache.thrift.transport.TTransport.readAll(TTransport.java:84)
+	at org.apache.thrift.protocol.TBinaryProtocol.readAll(TBinaryProtocol.java:362)
+	at org.apache.thrift.protocol.TBinaryProtocol.readI32(TBinaryProtocol.java:284)
+	at org.apache.thrift.protocol.TBinaryProtocol.readMessageBegin(TBinaryProtocol.java:191)
+	at org.apache.thrift.TServiceClient.receiveBase(TServiceClient.java:69)
+	at tachyon.thrift.MasterService$Client.recv_worker_getPinIdList(MasterService.java:463)
+	at tachyon.thrift.MasterService$Client.worker_getPinIdList(MasterService.java:451)
+	at tachyon.master.MasterClient.worker_getPinIdList(MasterClient.java:832)
+	at tachyon.worker.block.PinListSync.run(PinListSync.java:101)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2015-09-09 15:33:16,185 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-09 15:33:16,186 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (0) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-09-09 15:33:16,183 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-09 15:33:16,187 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (0) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-09-09 15:33:16,194 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (0) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-09-09 15:33:16,195 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-09 15:33:16,234 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (0) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-09-09 15:33:16,234 ERROR WORKER_LOGGER (HeartbeatThread.java:run) - Uncaught exception in heartbeat executor, Heartbeat Thread shutting down
+java.lang.RuntimeException: java.io.IOException: Failed to connect with master @ localhost/127.0.0.1:19998 after 0 attempts
+	at com.google.common.base.Throwables.propagate(Throwables.java:160)
+	at tachyon.master.MasterClientHeartbeatExecutor.heartbeat(MasterClientHeartbeatExecutor.java:40)
+	at tachyon.HeartbeatThread.run(HeartbeatThread.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Failed to connect with master @ localhost/127.0.0.1:19998 after 0 attempts
+	at tachyon.master.MasterClient.connect(MasterClient.java:223)
+	at tachyon.master.MasterClient.user_heartbeat(MasterClient.java:672)
+	at tachyon.master.MasterClientHeartbeatExecutor.heartbeat(MasterClientHeartbeatExecutor.java:37)
+	... 6 more
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: 拒绝连接
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at tachyon.master.MasterClient.connect(MasterClient.java:190)
+	... 8 more
+Caused by: java.net.ConnectException: 拒绝连接
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 10 more
+2015-09-09 15:33:16,234 ERROR WORKER_LOGGER (HeartbeatThread.java:run) - Uncaught exception in heartbeat executor, Heartbeat Thread shutting down
+java.lang.RuntimeException: java.io.IOException: Failed to connect with master @ localhost/127.0.0.1:19998 after 0 attempts
+	at com.google.common.base.Throwables.propagate(Throwables.java:160)
+	at tachyon.master.MasterClientHeartbeatExecutor.heartbeat(MasterClientHeartbeatExecutor.java:40)
+	at tachyon.HeartbeatThread.run(HeartbeatThread.java:51)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Failed to connect with master @ localhost/127.0.0.1:19998 after 0 attempts
+	at tachyon.master.MasterClient.connect(MasterClient.java:223)
+	at tachyon.master.MasterClient.user_heartbeat(MasterClient.java:672)
+	at tachyon.master.MasterClientHeartbeatExecutor.heartbeat(MasterClientHeartbeatExecutor.java:37)
+	... 6 more
+Caused by: org.apache.thrift.transport.TTransportException: java.net.ConnectException: 拒绝连接
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:185)
+	at org.apache.thrift.transport.TFramedTransport.open(TFramedTransport.java:81)
+	at tachyon.master.MasterClient.connect(MasterClient.java:190)
+	... 8 more
+Caused by: java.net.ConnectException: 拒绝连接
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:180)
+	... 10 more
+2015-09-09 15:33:16,237 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-09 15:33:16,238 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (1) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-09-09 15:33:16,285 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-09 15:33:16,285 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (1) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-09-09 15:33:16,336 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-09 15:33:16,338 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (2) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-09-09 15:33:16,338 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-09 15:33:16,339 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (2) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-09-09 15:33:16,589 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-09 15:33:16,590 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (3) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-09-09 15:33:16,638 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-09 15:33:16,639 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (3) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-09-09 15:33:16,640 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-09 15:33:16,641 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (4) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
+2015-09-09 15:33:16,889 INFO  WORKER_LOGGER (MasterClient.java:connect) - Tachyon client (version 0.7.1) is trying to connect with master @ localhost/127.0.0.1:19998
+2015-09-09 15:33:16,890 ERROR WORKER_LOGGER (MasterClient.java:connect) - Failed to connect (4) with master @ localhost/127.0.0.1:19998 : java.net.ConnectException: 拒绝连接
